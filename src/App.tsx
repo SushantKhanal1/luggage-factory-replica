@@ -1,29 +1,27 @@
-import TopBar from './components/TopBar'
-import Header from './components/Header'
-import NavBar from './components/NavBar'
-import HeroBanner from './components/HeroBanner'
-import TrustBar from './components/TrustBar'
-import Categories from './components/Categories'
-import FeaturedProducts from './components/FeaturedProducts'
-import PromoBanners from './components/PromoBanners'
-import BrandsSection from './components/BrandsSection'
-import Footer from './components/Footer'
+import TopBar from "./components/TopBar.tsx";
+import Header from "./components/Header.tsx";
+import TrustBar from "./components/TrustBar.tsx";
+import HeroBanner from "./components/HeroBanner.tsx";
+import PromoBanners from "./components/PromoBanners.tsx";
+import Categories from "./components/Categories.tsx";
+import FeaturedProducts from "./components/FeaturedProducts.tsx";
+import BrandsSection from "./components/BrandsSection.tsx";
+import Footer from "./components/Footer.tsx";
 
-export default function App() {
+function App() {
   return (
-    <div className="min-h-screen bg-[#f5f5f5] font-sans">
+    <div className="min-h-screen bg-white text-gray-900 font-sans">
       <TopBar />
       <Header />
-      <NavBar />
-      <main>
-        <HeroBanner />
-        <TrustBar />
-        <Categories />
-        <FeaturedProducts />
-        <PromoBanners />
-        <BrandsSection />
-      </main>
+      <TrustBar />
+      <HeroBanner />
+      <PromoBanners />
+      <Categories />
+      <FeaturedProducts />
+      <BrandsSection />
       <Footer />
     </div>
-  )
+  );
 }
+
+export default App;
