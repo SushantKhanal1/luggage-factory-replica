@@ -1,12 +1,12 @@
-import TopBar from "./components/TopBar";
-import Header from "./components/Header";
-import TrustBar from "./components/TrustBar";
-import HeroBanner from "./components/HeroBanner";
-import PromoBanners from "./components/PromoBanners";
-import Categories from "./components/Categories";
-import FeaturedProducts from "./components/FeaturedProducts";
-import BrandsSection from "./components/BrandsSection";
-import Footer from "./components/Footer";
+import TopBar from "./TopBar";
+import Header from "./Header";
+import TrustBar from "./TrustBar";
+import HeroBanner from "./HeroBanner";
+import PromoBanners from "./PromoBanners";
+import Categories from "./Categories";
+import FeaturedProducts from "./FeaturedProducts";
+import BrandsSection from "./BrandsSection";
+import Footer from "./Footer";
 
 function App() {
   return (
