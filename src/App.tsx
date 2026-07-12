@@ -1,12 +1,12 @@
-import TopBar from "./components/TopBar.tsx";
-import Header from "./components/Header.tsx";
-import TrustBar from "./components/TrustBar.tsx";
-import HeroBanner from "./components/HeroBanner.tsx";
-import PromoBanners from "./components/PromoBanners.tsx";
-import Categories from "./components/Categories.tsx";
-import FeaturedProducts from "./components/FeaturedProducts.tsx";
-import BrandsSection from "./components/BrandsSection.tsx";
-import Footer from "./components/Footer.tsx";
+import TopBar from "./components/TopBar";
+import Header from "./components/Header";
+import TrustBar from "./components/TrustBar";
+import HeroBanner from "./components/HeroBanner";
+import PromoBanners from "./components/PromoBanners";
+import Categories from "./components/Categories";
+import FeaturedProducts from "./components/FeaturedProducts";
+import BrandsSection from "./components/BrandsSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
